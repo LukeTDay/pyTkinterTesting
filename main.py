@@ -38,7 +38,8 @@ def initHub():
 
 window = tk.Tk()
 window.title("Swiss Army Knife")
+window.configure(bg="lightgray")
+window.geometry("300x300")
 
 initHub()
-
 window.mainloop()
